@@ -1,0 +1,7 @@
+body {background-color: coral;}
+
+h1 {
+  body bgcolor: blue;
+  background-color: darkred;
+  font-family: verdana;
+}

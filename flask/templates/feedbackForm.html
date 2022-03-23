@@ -1,0 +1,81 @@
+  </head>
+  <link rel="stylesheet" href="../static/style.css">
+  <body>
+    <div class="container">
+    <p style="text-align:center;"><img src="../static/M.S.-51-Logo.png" alt="My School" width="150" height="100" class="logo" />
+
+      
+  <h1><center>Feedback Form </center></h1>
+
+        <br>
+    </br>
+     
+
+  <h1>{{error}}</h1>
+  <h2><center>Please use the rubric to rate my coded artwork. </center></h2>
+
+<p style="text-align:center;"><img src="../static/Madaras Sharingan's Eye.png" alt="The Eye" width="350" height="300" class="logo" /> &nbsp;&nbsp;
+
+<img src="../static/Black Cat.png" alt="The Cat" width="350" height="300" class="logo" /> &nbsp;&nbsp;
+
+<img src="../static/Froggy the Frog.png" alt="The Frog" width="350" height="300" class="logo" /> &nbsp;&nbsp;
+
+<img src="../static/Absorbing Gas.png" alt="The Lolipop" width="350" height="300" class="logo" /> &nbsp;&nbsp;
+      
+  <br>
+    </br>
+        <br>
+    </br>
+        <br>
+    </br>
+        <br>
+    </br>
+  
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <h3>Peer Reviewer Name</h3>
+          <input
+            type="text"
+            name="Coded Artwork"
+        
+          />
+          
+
+   </div>
+     <div class="form-group">
+        <h3>Coded Artwork Project</h3>
+        <select name="Coded Artwork">
+          <option value="">Select Artwork</option>
+          <option value="Madaras Sharingan Eye">Madaras Sharingan Eye</option>
+          <option value="Black Cat">Black Cat</option>
+          <option value="Froggy Frog">Froggy Frog</option>
+          <option value="Absorbing Gas">Absorbing Gas</option>
+
+        </select>
+
+    </div>
+        <div class="form-group">
+          <h3>Please rate the Coded Artwork:</h3>
+          <input type="radio" name="rating" value="1" /> 1
+          <input type="radio" name="rating" value="2" /> 2
+          <input type="radio" name="rating" value="3" /> 3
+          <input type="radio" name="rating" value="4" /> 4
+
+        </div>
+        <div class="form-group">
+          <h3>Comments about your experience</h3>
+          <textarea
+            name="comments"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Tell us what you liked and what he/she/they can improve on"
+          ></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </div>
+  </body>
+</html>
+
+  <a href="/">Go Home</a>
