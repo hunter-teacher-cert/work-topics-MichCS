@@ -1,4 +1,5 @@
 # 3D Graphics
+### [**Graphics Presentation ppt link **](https://docs.google.com/presentation/d/1aCnSj--zw6R2PpqorJHdNruIlRbWqyor_eJWi7VTMEY/edit#slide=id.g12576b3d6f9_0_2125)
 
 ### General Info:
 *Last Name:* Best
@@ -22,8 +23,10 @@ How can computers be used to create and display three-dimensional graphics in tw
 This contains the files for the presentation, the code along, the code along solution, the homework/async description and the homework solution.
 
 ### Links
-[GeoGebra activities](https://www.geogebra.org/m/hmxm5jne)
 
-[Presentation](https://docs.google.com/presentation/d/1aCnSj--zw6R2PpqorJHdNruIlRbWqyor_eJWi7VTMEY/edit#slide=id.g12576b3d6f9_0_2125)
+
+### [**Graphics Presentation*](https://docs.google.com/presentation/d/1aCnSj--zw6R2PpqorJHdNruIlRbWqyor_eJWi7VTMEY/edit#slide=id.g12576b3d6f9_0_2125)
+
+[GeoGebra activities](https://www.geogebra.org/m/hmxm5jne)
 
 [Code](https://replit.com/@daianam08/graphics#main.py)
